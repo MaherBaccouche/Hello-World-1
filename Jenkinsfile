@@ -1,8 +1,5 @@
 node{
-   agent any
-    
    
-   stages {
         stage("Git Clone"){
             git credentialsId: 'GIT_CREDENTIALS', url: 'https://github.com/MaherBaccouche/Hello-World-1.git'
             }
@@ -13,6 +10,6 @@ node{
            }
         
         
-    }
-}
+    
+
 }
