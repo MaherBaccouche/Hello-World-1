@@ -1,4 +1,4 @@
-node{
+pipeline{
    
         environment {
            MAVEN_CLI_OPTS = '-Dmaven.repo.local=.m2 -s .m2/settings.xml -B'
