@@ -1,9 +1,7 @@
 pipeline{
    agent any
     
-   tools {
-            maven 'Maven 3.6.3'
-    }
+   
    stages {
         stage("Git Clone"){
             git credentialsId: 'GIT_CREDENTIALS', url: 'https://github.com/MaherBaccouche/Hello-World-1.git'
