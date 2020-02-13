@@ -12,11 +12,6 @@ node{
            sh "${mavenCMD} clean package"
            }
         
-         stage('Unit Tests') {
-             //when { anyOf { branch 'feature/*'; branch 'fix/*' } }
-             steps {
-                sh 'mvn test ${MAVEN_CLI_OPTS}'
-             }
 
     
 
