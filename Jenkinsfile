@@ -1,5 +1,5 @@
 pipeline{
-    agent any
+    agent MaherBaccouche
     
      tools {
             maven 'Maven 3.6.3'
