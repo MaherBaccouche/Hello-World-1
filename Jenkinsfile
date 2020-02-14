@@ -1,4 +1,4 @@
-node{
+pipeline{
    
         
  
@@ -12,7 +12,6 @@ node{
            sh "${mavenCMD} clean package"
            }
         
-
-    
+      
 
 }
